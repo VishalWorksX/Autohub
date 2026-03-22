@@ -1,0 +1,47 @@
+
+/* Style the car container */
+.car-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Style the car image */
+  .car-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the car info */
+  .car-info {
+    flex: 2;
+  }
+  
+  /* Style the car title and rating */
+  .car-info h2,
+  .car-info p {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the link */
+  .car-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style the link on hover */
+  .car-info a:hover {
+    color: #000;
+  }
+  
+  
